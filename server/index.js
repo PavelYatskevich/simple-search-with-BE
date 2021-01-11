@@ -13,7 +13,7 @@ app.use(cors(corsOptions));
 const API_KEY = '19847434-63e21816721aa50791068e628';
 const BASE_URL = `https://pixabay.com/api/?key=${API_KEY}`;
 
-app.get('/search/:query', function(req, res) {
+app.get('/search/:query?', function(req, res) {
     request(`${BASE_URL}&q=${req.params.query}`, function(error, response, body) {
         res.end(body)
     })
