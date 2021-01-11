@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.images-container img {
+  margin: 2px;
+}
+
+.search {
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 1;
+  color: #777;
+}
