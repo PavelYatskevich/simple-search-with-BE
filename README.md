@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Steps:
+## Development steps:
 
 1. Created simple react app
 2. Added simple http server to send request to external link, used next libraries: express, http, cors, request.
@@ -14,7 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 8. Extend search component to store input value in context with debounce
 9. Update images component to use input value from context
 
-TODO
+## TODO:
+
 1. add typescript
 2. add tests
 3. improve styles
