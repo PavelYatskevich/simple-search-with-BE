@@ -8,11 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. Added simple http server to send request to external link, used next libraries: express, http, cors, request.
 3. Added search and images components
 4. Added request to local server with static query
-5. Render Images from response
+5. Render images from response
 6. Added search input to search images
-7. Added context to share data between components(can use props, but don't like it)
-8. Extend search component to store input value in context with debounce
-9. Update images component to use input value from context
+7. Added local state to App component and pass the props to the Search and Images components(decide to make components dumb)
+8. Commit a87bd3c3db89eb2f6e9555f369585c37646bf2a1 contain solution with react context
 
 ## TODO:
 
@@ -23,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to run
 
 1. yarn install - install node modules
-2. yarn server - run localserver
+2. yarn server - run local server
 3. yarn start - start app
 
 ## Available Scripts
